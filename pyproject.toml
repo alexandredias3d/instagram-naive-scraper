@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "instagram-naive-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre H. T. Dias <alexandrehtdias@gmail.com>"]
+readme = "README.md"
+packages = [{include = "instagram_naive_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.1"
+playwright = "^1.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
